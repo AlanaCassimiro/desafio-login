@@ -33,11 +33,11 @@ section#login {
     transform: translate(-50%, -50%);
     overflow: hidden;
 
-    background-color: white;
-    width: 250px;
+    background-color: rgba(238, 193, 201, 0.664);
+    width: 280px;
     height: 515px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px pink;
+    box-shadow: 0px 0px 10px white;
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
@@ -53,4 +53,13 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 1.2em;
 }
