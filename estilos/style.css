@@ -8,7 +8,7 @@
 */
 
 * { 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing:initial;
@@ -35,11 +35,11 @@ section#login {
 
     background-color: rgba(255, 193, 204, 0.856);
     width: 280px;
-    height: 515px;
+    height: 560px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px white;
 
-    transition: width .3s, height .3s;
+    transition: width .2s, height .2s;
     transition-timing-function: ease;
 }
 
@@ -62,4 +62,56 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 1.2em;
+}
+
+form > div.campo {
+    background-color: #FF81D0;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 37px;
+    background-color: #1b2627;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #65a6ac;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 27px;
+    padding-top: 7px;
+    margin-top: 5px;
+    background-color: white;
+    color:#1b2627;
+    border: 1px solid #1b2627;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: #65a6ac;
+}
+
+form > a.botao > i {
+    font-size: 0.8em;
 }
